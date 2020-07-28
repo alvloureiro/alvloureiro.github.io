@@ -54,34 +54,31 @@ function App() {
     <Grid
       spacing={0}
       container
-      justify="center"
-      alignItems="center"
-      direction="column"
+      justify='center'
+      alignItems='center'
+      direction='column'
       style={{ minHeight: '100vh' }}
     >
       <Grid item>
         <Card className={classes.card}>
           <CardHeader
             avatar={
-              <Avatar aria-label="abreviation" className={classes.avatar}>
+              <Avatar aria-label='abreviation' className={classes.avatar}>
                 A
               </Avatar>
             }
-            title="André Loureiro"
-            subheader="Software Engineer"
+            title='André Loureiro'
+            subheader='Software Engineer'
             style={{ minHeight: 100 }}
           />
 
           <CardContent style={{ textAlign: 'start' }}>
-            <Typography color="textSecondary" gutterBottom variant="body2" component="p">
-              Lorem ipsum proin nunc pellentesque eu viverra diam duis sagittis phasellus, per non
-              taciti egestas ipsum quis cursus sapien felis fames, enim pharetra iaculis consectetur
-              luctus dolor bibendum pulvinar in. vehicula habitasse rutrum luctus eros ultrices
-              rhoncus congue quis diam, nec dolor himenaeos nunc consectetur ad lectus sem diam
-              orci, taciti vulputate nostra hendrerit egestas justo mauris non. magna ut justo diam
-              ipsum mi auctor massa velit consectetur habitasse dictumst, litora malesuada orci
-              interdum fames tristique sagittis tortor sit vulputate, est mauris gravida potenti
-              auctor nibh suscipit vestibulum massa odio.
+            <Typography color='textSecondary' gutterBottom variant='body2' component='p'>
+              Currently work as a technical leader focusing on web applications that use React,
+              Nodejs,Express and Mongodb, besides my main works as software developer are related to
+              front-end focused in the cloud, multimedia solutions for embedded applications, mobile
+              appli-cations using Qt framework, browser development with WebKit, Application
+              solutions forAndroid.
             </Typography>
           </CardContent>
           <CardActions disableSpacing>
@@ -94,7 +91,7 @@ function App() {
                 }}
                 onClick={() => window.open(action.url)}
               >
-                <img alt="github" className={classes.image} src={action.img} />
+                <img alt='github' className={classes.image} src={action.img} />
               </ButtonBase>
             ))}
           </CardActions>
