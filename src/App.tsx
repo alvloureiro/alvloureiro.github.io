@@ -1,14 +1,14 @@
 import React from 'react';
 import {
+  Avatar,
   ButtonBase,
   Card,
   CardActions,
   CardContent,
+  CardHeader,
   Grid,
   makeStyles,
   Typography,
-  CardHeader,
-  Avatar,
 } from '@material-ui/core';
 import { red } from '@material-ui/core/colors';
 import github from './github.png';
@@ -16,7 +16,7 @@ import linkedin from './linkedin2.png';
 
 const useStyles = makeStyles({
   card: {
-    width: 800,
+    width: '100%',
   },
   title: {
     fontSize: 20,
@@ -52,8 +52,8 @@ function App() {
   ];
   return (
     <Grid
-      spacing={0}
       container
+      spacing={0}
       justify='center'
       alignItems='center'
       direction='column'
