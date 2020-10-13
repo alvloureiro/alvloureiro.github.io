@@ -16,7 +16,7 @@ import linkedin from './linkedin2.png';
 
 const useStyles = makeStyles({
   card: {
-    width: '100%',
+    width: 800,
   },
   title: {
     fontSize: 20,
