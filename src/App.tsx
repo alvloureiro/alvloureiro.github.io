@@ -7,32 +7,11 @@ import {
   CardContent,
   CardHeader,
   Grid,
-  makeStyles,
   Typography,
 } from '@material-ui/core';
-import { red } from '@material-ui/core/colors';
 import github from './github.png';
 import linkedin from './linkedin2.png';
-
-const useStyles = makeStyles({
-  card: {
-    width: '100%',
-  },
-  title: {
-    fontSize: 20,
-  },
-  pos: {
-    marginBottom: 16,
-  },
-  avatar: {
-    backgroundColor: red[500],
-  },
-  image: {
-    marginRight: 10,
-    width: 32,
-    height: 30,
-  },
-});
+import {useStyles} from "./styles";
 
 function App() {
   const classes = useStyles();
