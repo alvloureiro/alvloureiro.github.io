@@ -1,14 +1,12 @@
-import React from 'react';
-
 import {
     makeStyles,
 } from '@material-ui/core'
 import { red } from '@material-ui/core/colors';
 
 
-const useStyles = makeStyles({
+const styles = makeStyles({
     card: {
-      width: "100%",
+      width: "355px",
     },
     title: {
       fontSize: 20,
@@ -26,4 +24,4 @@ const useStyles = makeStyles({
     },
   });
 
-  export {useStyles}
+  export {styles}
